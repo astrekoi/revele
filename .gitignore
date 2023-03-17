@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# build
+build
 
 # misc
 .DS_Store
@@ -21,3 +21,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+codiga.yml
