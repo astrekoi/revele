@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/revele/static/css/main.073c9b0a.css",
+    "main.js": "/revele/static/js/main.e3fb603b.js",
+    "static/js/787.2466097f.chunk.js": "/revele/static/js/787.2466097f.chunk.js",
+    "static/media/logo.svg": "/revele/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/revele/index.html",
+    "main.073c9b0a.css.map": "/revele/static/css/main.073c9b0a.css.map",
+    "main.e3fb603b.js.map": "/revele/static/js/main.e3fb603b.js.map",
+    "787.2466097f.chunk.js.map": "/revele/static/js/787.2466097f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e3fb603b.js"
+  ]
+}
