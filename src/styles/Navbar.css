@@ -1,0 +1,100 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    position: relative;
+    z-index: 2;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+   margin:0 10px; 
+   padding:10px; 
+   position:relative
+}
+
+.nav li:hover {
+   background-color:#000
+}
+
+.nav li:hover .link,
+.nav li:hover .dropbtn {
+   color:#ffc0cb
+}
+
+.nav .link {
+   color:#fff; 
+   text-decoration:none
+}
+
+.search-icon {
+   width:25px; 
+   height:25px; 
+   margin-left:auto; 
+   filter:invert(1)
+}
+
+.search-icon:hover {
+   cursor:pointer; 
+   filter:invert(0.5) sepia(1) saturate(5) hue-rotate(300deg)
+}
+
+/* Dropdown меню для Homeworks*/
+
+.dropdown {
+   position:relative; 
+   display:inline-block
+}
+
+.dropdown-content {
+   display:none; 
+   position:absolute; 
+   z-index:1; 
+   background-color:#333; 
+   min-width:160px; 
+   top:calc(100% + 10px); 
+   padding-top:10px; 
+   left:0
+}
+
+.dropdown-content:before {
+   content:"";
+   position:absolute; 
+   top:-10px; 
+   left:0; 
+   right:0; 
+   height:10px; 
+   background-color:#333
+}
+
+.dropdown-content a {
+   color:#fff; 
+   padding:10px 10px; 
+   text-decoration:none; 
+   display:block
+}
+  
+.dropdown:hover>.dropdown-content {
+   display:block
+}
+  
+.dropdown-content a:hover {
+   background-color:#111
+}
+  
+.dropbtn {
+   color:#fff; 
+   background-color:transparent; 
+   padding:0; 
+   font-size:inherit; 
+   border:none
+}

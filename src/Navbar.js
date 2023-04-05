@@ -1,27 +1,42 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+import { Link } from 'react-router-dom';
+import searchIcon from './pictures/search-icon.svg';
+import './styles/Navbar.css';
 
 class Navbar extends React.Component {
   render() {
     return (
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
+      <nav className="nav">
+        <ul className="ul">
+          <li className="li">
+            <Link to="/" className="link"> Home </Link>
           </li>
-          <li>
-            <Link to="/about">About</Link>
+          <li className="li">
+            <Link to="/about" className="link"> About </Link>
+          </li>
+          <li className="dropdown">
+            <Link to="/homeworks" className="dropbtn"> Homeworks </Link>
+            <div className="dropdown-content">
+              <Link to="/homework1">Homework1</Link>
+            </div>
           </li>
         </ul>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <img src={searchIcon} alt="Search Icon" className="search-icon" />
       </nav>
     );
   }
 }
 
 export default Navbar;
+
+
+/* Замените содержимое тега svg на содержимое файла search.svg 
+<svg
+  xmlns="<URL>"
+  viewBox="0 0 24 24"
+  width="24"
+  height="24"
+  className="search-icon"
+>
+  <path d="<URL>" />
+</svg>*/
