@@ -4,11 +4,11 @@ import tiger from '../pictures/tiger-tigr-vzglyad-kquy.jpg';
 import duck from '../pictures/1674523453_animeshka-org-p-cherry-valley-duck-breed-vkontakte-71.jpg';
 import '../styles/pages-style/Homework1.css';
 
-const Test = () => {
+const Homework1 = () => {
   return (
-    <div className="test-container">
+    <div className="Homework1-container">
       <h1>Привет, мир!</h1>
-      <p>Это простой пример кода на React с использованием JSX.</p>
+      <p>Это простой пример кода !.</p>
       <ul>
         <li>Элемент списка 1</li>
         <li>Элемент списка 2</li>
@@ -77,4 +77,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Homework1;

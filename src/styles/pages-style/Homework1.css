@@ -1,13 +1,13 @@
 /* Сложные селекторы */
-.test-container h1 {
+.Homework1-containerh1 {
     color: blue;
   }
   
-  .test-container p {
+  .Homework1-container p {
     color: green;
   }
   
-  .test-container {
+  .Homework1-container {
     display: flex;
     flex-direction: column;
     align-items: center;
