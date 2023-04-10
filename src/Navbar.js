@@ -19,6 +19,7 @@ class Navbar extends React.Component {
             <div className="dropdown-content">
               <Link to="/homework1">Homework 1</Link>
               <Link to="/homework2">Homework 2</Link>
+              <Link to="/homework3">Homework 3</Link>
             </div>
           </li>
         </ul>
