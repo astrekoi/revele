@@ -5,6 +5,7 @@ import About from './pages/About';
 import Homework1 from './pages/Homework1';
 import Homework2 from './pages/Homework2';
 import Homework3 from './pages/Homework3';
+import Homework4 from './pages/Homework4';
 import Navbar from './Navbar';
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path="/homework1" element={<Homework1 />} />
           <Route path="/homework2" element={<Homework2 />} />
           <Route path="/homework3" element={<Homework3 />} />
+          <Route path="/homework4" element={<Homework4 />} />
         </Routes>
       </BrowserRouter>
     );

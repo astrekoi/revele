@@ -1,0 +1,20 @@
+{
+    "gallery": "My gallery",
+    "images": [
+        {
+            "name": "Photo 1",
+            "file": "https://github.com/astrekoi/revele/blob/9740d36ae0f19480ae27011cdb2a6b3b687201db/src/pictures/1674523453_animeshka-org-p-cherry-valley-duck-breed-vkontakte-71.jpg?raw=true",
+            "type": "animal"
+        },
+        {
+            "name": "Photo 2",
+            "file": "https://github.com/astrekoi/revele/blob/9740d36ae0f19480ae27011cdb2a6b3b687201db/src/pictures/leopard-leopard-vzglyad-bapz.jpg?raw=true",
+            "type": "bird"
+        },
+        {
+            "name": "Photo 3",
+            "file": "https://github.com/astrekoi/revele/blob/9740d36ae0f19480ae27011cdb2a6b3b687201db/src/pictures/tiger-tigr-vzglyad-kquy.jpg?raw=true",
+            "type": "bird"
+        }
+    ]
+}

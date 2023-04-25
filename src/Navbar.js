@@ -20,6 +20,7 @@ class Navbar extends React.Component {
               <Link to="/homework1">Homework 1</Link>
               <Link to="/homework2">Homework 2</Link>
               <Link to="/homework3">Homework 3</Link>
+              <Link to="/homework4">Homework 4</Link>
             </div>
           </li>
         </ul>
@@ -32,7 +33,7 @@ class Navbar extends React.Component {
 export default Navbar;
 
 
-/* Замените содержимое тега svg на содержимое файла search.svg 
+/*  
 <svg
   xmlns="<URL>"
   viewBox="0 0 24 24"
